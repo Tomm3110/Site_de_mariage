@@ -1,0 +1,425 @@
+ body {
+  font-family: "Playfair", serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2ecee;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2ecee;
+  padding: 10px 5px;
+  margin: 10px;
+  padding-left: 0;
+  margin-left: 5px;
+  margin-top: 5px;
+  border-bottom: 1px solid #e5e5e5;
+  height: 40px;
+  text-decoration-color: #484e51;
+  text-size-adjust: 30%;
+  border-color: #f2ecee;
+}
+
+header .logo {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+header .logo img {
+  height: 80px;
+  width: 70px;
+  margin-top: 10px;
+  transition: transform 0.3s ease;
+}
+.liensitelogo:hover img {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+header .logo .brand-name {
+  font-size: 16px;
+  color: #7e7b7b;
+  font-family: "Playfair", serif;
+  margin-bottom: 10px;
+}
+.brand-name a {
+  text-decoration: none;
+  color: #7e7b7b;
+}
+.brand-name:hover {
+  cursor: pointer;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+header nav ul:hover {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #595e60;
+  font-size: 18px;
+  font-family: "Playfair", serif;
+  transition: border-width 0.3s ease, padding 0.3s ease;
+}
+
+header nav ul li a:hover {
+  border: black;
+  background-color: #b09394;;
+  padding: 5px;
+  border-radius: 30px;
+}
+
+header nav ul li {
+  padding-top: 8px;
+  text-decoration: none;
+  color: #484e51;
+  font-family: "Playfair", serif;
+}
+
+header nav ul li:nth-child(4) {
+  background-color: #b09394;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+  padding-right: 15px;
+  border-radius: 40px;
+}
+.contact-btn {
+  display: flex;
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+  padding-right: 10px;
+  color: #b09394;
+  padding: 0 5px 0;
+}
+
+.langue{
+  position: absolute;
+  top: 58px;
+  right: 40px;
+  text-align: center;
+}
+
+.langue .a{
+  text-decoration: none;
+  color: #b09394;
+}
+
+.FR {
+  display: inline;
+}
+
+.EN {
+  display: none;
+  position: relative;
+  top: 10px;
+}
+
+.langue:hover .FR{
+  display: inline;
+}
+
+.langue:hover .EN {
+  display: inline;
+}
+
+.langue img{
+  width: 35px;
+  cursor: pointer;
+}
+
+.ligne1 {
+  background-color: #f2ecee;
+  width: 93%;
+  margin-right: 10px;
+  border-color: #f2ecee;
+  margin-bottom: 20px;
+}
+
+  .page {
+    background-image: url('photos/groom-putting-ring-bride-s-finger.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+  }
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #d9d5cf;
+  height: 450px;
+}
+
+.banner-image {
+  height: 450px;
+}
+.banner-image img {
+  width: 700px;
+  height: 450px;
+  object-fit: cover;
+  padding: 0;
+}
+
+.banner-text {
+  width: 100%;
+  text-align: center;
+}
+
+.banner-text p {
+  margin: 10px 0;
+  font-size: 25px;
+  font-family: "Lora", serif;
+  color: #484e51;
+}
+
+
+
+body h1,h2 {
+  color: #f2ecee;
+}
+
+
+.page a {
+color: #f2ecee;
+font-family: "playfair", serif;
+}
+
+.radio_group{
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.radio_group div{
+  display: flex;
+}
+
+.couple p{
+  font-weight: 800;
+  font-size: x-large;
+}
+
+.radio_group div label{
+  font-size:larger;
+}
+
+.page a:hover{
+color: #ffffff;
+text-shadow: -1px 0px 9px rgba(0, 0, 0, 0.288);
+}
+
+body h1 {
+text-transform:  uppercase;
+position:relative;
+top:40px;
+}
+
+
+/* formulaire */
+
+.page h1,h2{
+  text-align: center;
+}
+
+.page h1{
+  margin-bottom: 40px;
+}
+
+.formulaire {
+  background-color: #b09394be;
+  padding: 20px;
+  border-radius: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.164);
+}
+
+.formulaire form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+#nomprenom {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+}
+
+
+
+/* Formulaire */
+.formulaire input,
+.formulaire textarea {
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #584c4c;
+}
+
+.formulaire input[type="text"],
+.formulaire input[type="number"] {
+  height: 40px;
+}
+
+.formulaire textarea {
+  height: 80px;
+  resize: none;
+}
+
+.formulaire button {
+  padding: 10px 20px;
+  font-size: 14px;
+  border: none;
+  color: #584c4c;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.formulaire button[type="submit"] {
+  background-color: #cfeaa8;
+}
+
+.formulaire button[type="submit"]:hover {
+  background-color: #addd80;
+}
+
+.formulaire button[type="reset"] {
+  background-color: #f397a0;
+}
+
+.formulaire button[type="reset"]:hover {
+  background-color: #e26771;
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  margin-top: 15px;
+}
+
+#politique {
+  display: flex;
+  align-items: flex-start; 
+  max-width: 500px; 
+  gap: 10px;
+}
+
+
+#politique p {
+  margin: 0;
+  line-height: 1;
+  font-size: 18px; 
+  text-align:justify;
+  
+}
+
+#politique input[type="checkbox"] {
+  width: 20px; 
+  height: 20px;
+}
+
+/*  Lien Politique de Confidentialité (non fonctionnel) */
+#lien_politique {
+  color: rgb(57, 57, 158);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+footer {
+  background-color: #787373;
+  display: flex;
+  justify-content: center;
+}
+.footerGrid-container {
+  background-color: #787373;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  height: 200px;
+  margin-top: 20px;
+  padding: 0 20px;
+  padding-right: 0;
+  margin-right: 0;
+}
+
+.textFooter {
+  width: 240px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.textFooter1 {
+  justify-content: left;
+  text-align: left;
+}
+.textFooter p {
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  width: 300px;
+  margin: auto;
+}
+
+.textFooter img {
+  height: 150px;
+  width: 150px;
+  padding: 10px;
+}
+
+.droit {
+  background-color: #787373;
+  text-align: center;
+}
+
+.droit p {
+  font-family: "playball", serif;
+  font-size: 17px;
+  color: white;
+  margin: 0;
+}
+
+.imgReseaux {
+  width: 25px;
+  height: 25px;
+}
+.reseaux {
+  margin: 20px;
+  padding: 10px;
+}
+.social-icons a {
+  color: white;
+}
+.lienFooter {
+  color: white;
+  text-decoration: none;
+}

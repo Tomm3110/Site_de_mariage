@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="form.css" />
+    <title>Once Upon A Time</title>
+    <link rel="icon" href="photos/logo.svg" type="image/x-icon">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400..700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap"
+    />
+    <link rel="stylesheet" href="'https://fonts.googleapis.com/css2?family=Lora:wght@400..700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400..700&family=Playball&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap">
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a class="liensitelogo" href="homepageFR.html"><img src="photos/logo.svg" alt="logo" /></a>
+        <span class="brand-name"><a href="">Once Upon A Time</a></span>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="societeFR.html">À propos</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="compteFR.html">Mon compte</a></li>
+          <li>
+            <a href="form.html" class="contact-btn">
+              <img
+                src="photos/Vector.svg"
+                alt="phon-icon"
+                class="icon"
+              />Contact</a
+            >
+          </li>
+        </ul>
+        <div class="langue">
+          <a href="form.html" class="FR"><img src="photos/icon_drap_fr.png" alt="drapeau français"></a>
+          <a href="formEN.html" class="EN"><img src="photos/icon_drap_en.png" alt="drapeau anglais"></a>
+        </div>
+      </nav>
+    </header>
+    <hr class="ligne1" />
+    <div class="page">
+      <h1> Pour réaliser l'évenement de vos rêves</h1> <br>
+      <h2> Contactez nous : 02.01.00.03.01 <br>
+        OU <br> Remplissez le formulaire  </h2>
+      <div class="formulaire"> 
+        <form method="post">
+          <div id="nomprenom">
+            <input type="text" name="nom" placeholder="NOM" required/>
+            <input type="text" name="prénom" placeholder="PRÉNOM" required/>
+          </div>
+            <input type="tel" name="telephone" placeholder="TÉLÉPHONE" required>
+            <input type="email" name="email" placeholder="EMAIL" required>
+            <div class="couple">
+              <p>Couple :</p>
+              <div class="radio_group">
+                <div>
+                  <input type="radio" id="hetero" name="pref" value="hetero" checked />
+                  <label for="pref">Hétérosexuel</label>
+                </div>
+
+                <div>
+                  <input type="radio" id="homo" name="pref" value="homo" />
+                  <label for="pref">Homosexuel</label>
+                </div>
+
+                <div>
+                  <input type="radio" id="autre" name="pref" value="autre" />
+                  <label for="pref">Autre</label>
+                </div>
+              </div>
+            <input type="number" name="nbm_personne" placeholder="NOMBRE D'INVITÉS (ENVIRON)">
+            <input type="text" name="lieu" placeholder="LIEU DE L'ÉVENEMENT (PAYS ET VILLE)">
+            <textarea name="message" placeholder="VOS IDÉES ET REQUÊTES..."></textarea>
+            <div id="politique">
+              <input type="checkbox" name="politique" />
+              <p>
+                En cochant cette case, vous confirmez avoir pris connaissance de notre
+                <a id="lien_politique" href="#">politique de confidentialité</a>.
+              </p>
+            </div>
+            <div id="buttons">
+              <button type="reset">RENITIALISER</button>
+              <button type="submit">ENVOYER</button>
+            </div>
+        </form>
+      </div>
+      <br><br><br>
+    </div>
+      <footer>
+        <div>
+          <div class="footerGrid-container">
+            <div class="textFooter"><p class = "texteFooter1">
+              Once Upon A time  Organisateur de mariages à l'international <br>
+              Adresse : 123 Rue des Mariages, 75001 Paris, France <br>
+              Téléphone : +33 1 23 45 67 89 <br>
+              Email : contact@onceuponatime.com <br>
+            </p></div>
+            <div class="textFooter">
+              <p>
+                <u>Navigation</u><br><br>
+                <a class="lienFooter" href="">À propos de nous</a> <br>
+                <a class="lienFooter" href="">Services</a> <br>
+                <a class="lienFooter" href="">Mon Compte</a> <br>
+                <a class="lienFooter" href="">Témoignages / FAQ</a></p>
+            </div>
+           <div class="textFooter"> <p>
+          <u>Informations légales</u>  <br> <br>
+             <a class="lienFooter" href="">Mentions légales</a> <br>
+             <a class="lienFooter" href="">Politique de confidentialité </a><br>
+             <a class="lienFooter" href="">Conditions générales de vente</a> <br>
+             <a class="lienFooter" href="">Politique en matière de cookies</a> <br>
+           </p></div>
+           <div>
+            <div class="reseaux">
+              <div class="social-icons">
+                <img class="imgReseaux" src="photos/insta.svg" alt="instagram" />
+                <a href="#Instagram" title="Instagram">Instagram</a>
+              </div>
+              <div class="social-icons">
+                <img class="imgReseaux" src="photos/facebook.png" alt="Facebook" />
+                <a href="#Facebook" title="Facebook">Facebook</a>
+              </div>
+              <div class="social-icons">
+                <img class="imgReseaux" src="photos/pinterest.png" alt="pinterest" />
+                <a href="#Pinterest" title="Pinterest">Pinterest</a>
+              </div>
+            </div>
+           </div>
+           
+            <div class="textFooter"><img src="photos/logo.png" alt="logo Once Upon A Time" /></div>
+          </div>
+          <div class="droit"><p>© Once Upon A Time - Tous droits réservés.</p></div>
+        </div>
+      </footer>
+
+</body>
+</html>
